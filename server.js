@@ -16,8 +16,6 @@ app.use(require('./routes'));
 
 mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/social_network_api_pedro_guerra', {
 
-    useFindAndModify: false,
-
     useNewUrlParser: true,
 
     useUnifiedTopology: true,
